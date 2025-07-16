@@ -37,7 +37,7 @@ document.querySelectorAll('.ai-badge').forEach(badge => {
     });
 });
 
-let currentLanguage = 'en';
+let currentLanguage = 'zh';
 
 function switchLanguage(lang) {
     currentLanguage = lang;
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Initialize with English
-    switchLanguage('en');
+    switchLanguage('zh');
 });
 
 // Mobile menu functions remain global for inline onclick handlers
